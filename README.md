@@ -19,7 +19,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Poblar la base de datos usando una semilla
+5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Llenar las variables definidas en el __.env__
+
+7. Ejecutar la aplicacion en dev:
+```
+npm run start:dev
+```
+
+8. Poblar la base de datos usando una semilla
 ```
 localhost:3000/api/v2/seed
 ```
